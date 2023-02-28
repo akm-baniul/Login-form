@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(#0000006b, #0000006b), url(image/login-bg.jpg);
+  background-position: cover;
+}
+.login-box {
+  border: 1px solid;
+  width: 525px;
+  height: 400px;
+  margin: auto;
+  margin-top: 320px;
+  border-color: #ffffff9e;
+  backdrop-filter: blur(10px);
+}
+
+h1.headline {
+  text-align: center;
+  font-size: 35px;
+  color: #ffffffbd;
+}
+.email-box {
+  margin-left: 20px;
+  color: #ffffffcc;
+}
+
+input[type="email"] {
+  width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  /* border-style: none; */
+  background: #ffffff00;
+  font-size: 17px;
+  border-color: #ffffffc7;
+  /* color: #c72c2c; */
+}
+
+h2.email {
+  margin-bottom: 10px;
+}
+
+input[type="password"] {
+  width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 17px;
+  border-color: #ffffffc7;
+}
+
+.password-box {
+  margin-left: 20px;
+}
+
+h2.password {
+  color: #ffffffc9;
+  margin-bottom: 10px;
+}
+h4.register {
+  text-align: center;
+  color: #ffffffd1;
+}
+
+button {
+  padding: 13px;
+  width: 170px;
+  margin-left: 165px;
+  background: #ffffffd9;
+  backdrop-filter: blur(20px);
+}
